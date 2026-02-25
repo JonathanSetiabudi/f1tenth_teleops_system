@@ -43,7 +43,7 @@ def analyze_latency(folder_path, threshold=100, stop_at=600):
         ax1.set_ylabel('Latency (ms)')
         ax1.legend()
 
-        # --- 2. CDF PLOT ---
+        # ---- 2. CDF PLOT ----
         cdf_y = np.arange(1, len(sorted_latency) + 1) / len(sorted_latency)
         ax2.plot(sorted_latency, cdf_y, color='darkorange', lw=2)
         p95 = np.percentile(raw_latency, 95)
