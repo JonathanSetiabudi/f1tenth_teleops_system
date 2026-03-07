@@ -91,3 +91,5 @@ v4l2-ctl --list-devices
 #Pick your device(/dev/video0 as an example)
 v4l2-ctl -d dev/video0 --list-formats-ext
 ```
+
+On your cockpit, now go to 'http://<JETSON_IP>:8889/cam' on your browser to watch the camera feed.
