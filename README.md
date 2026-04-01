@@ -17,7 +17,7 @@ These launch Instructions are under the assumption that your F1Tenth Racer and y
 #### Cockpit Side
 The attached script in `teleop_cockpit` is with the assumption that you are using an Xbox Controller or a Logitech G923 Steering wheel. You can use a different control mechanism just make sure the axis are mapped correctly. You can find out what output from your controller/wheel maps to what axis using `teleop_cockpit/test_controller.py`
 
-If you are on Windows or Mac you must natively run the cockpit code, not through docker. I recommend you create a virtual environment. You need a python 3.10-3.12 version. Simply run `python transmit_driving_inputs.py`
+If you are on Windows or Mac you must natively run the cockpit code, not through docker. I recommend you create a virtual environment (one with all the required dependencies is already included in the repo, simply activate it). You need a python 3.10-3.12 version. Simply run `python transmit_driving_inputs.py`
 
 If you are using linux you can simply do `docker compose up` to launch and `docker compose down` to shut down. 
 
