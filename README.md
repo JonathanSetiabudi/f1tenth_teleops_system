@@ -1,6 +1,12 @@
+
+
 # F1Tenth remote teleops
 
 This repo is with the assumption you have fully assembled your F1Tenth/RoboRacer vehicle and downloaded ROS2 Humble and the F1Tenth Stack(possible by git cloning this repo) and other related dependancies. If you haven't, follow their instructions to the best of your ability as some of the commands may be outdated: [RoboRacer Set-up instructions](https://f1tenth.readthedocs.io/en/foxy_test/getting_started/intro.html).
+
+## Demo
+[![F1Tenth Teleop Demo Thumbnail](https://img.youtube.com/vi/6vgVQ6XLtaU/0.jpg)](https://www.youtube.com/watch?v=6vgVQ6XLtaU)
+
 
 ## Cloning submodules
 If you clone this repository, make sure to clone the submodules as well. You can do this by running:
